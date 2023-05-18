@@ -1,0 +1,17 @@
+description: Stack for bulding REST API applications with Java and Spring Boot
+name: java-springboot-restapi-stack
+display-name: java-springboot-restapi-stack
+picture: stack.png
+category: backend # Ref: https://docs.stackspot.com/latest/docs/creators-guide/yaml/#category
+compatibility: # Put a list of technologies compatible with the stack
+  - java
+  - spring
+technologies: # Ref: https://docs.stackspot.com/latest/docs/creators-guide/yaml/#technologies 
+  - docker
+  - rest
+  - springboot 
+about: docs/pt-br/about.md
+use-cases:
+  - title: Use Case Title
+    content: docs/use-case.md
+    stackfile: stackfiles/default.yaml
